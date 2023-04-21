@@ -1,0 +1,28 @@
+.team-fullname {
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+}
+
+.atlantic {
+    background-color: green !important;
+}
+
+.central {
+    background-color: orangered !important;
+}
+
+.southeast {
+    background-color: blue !important;
+}
+
+.northwest {
+    background-color: fuchsia !important;
+}
+
+.pacific {
+    background-color: blueviolet !important;
+}
+
+.southwest {
+    background-color: black !important;
+}

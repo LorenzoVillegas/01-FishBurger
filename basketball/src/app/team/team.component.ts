@@ -9,4 +9,10 @@ import { Team } from '../models/Team.model';
 export class TeamComponent {
 @Input() team: Team;
 
+fullname_class: string = "team-fullname";
+
+ngInit() {
+  this.fullname_class = this.team.division;
+}
+
 }

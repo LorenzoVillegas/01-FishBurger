@@ -1,18 +1,17 @@
-<div>
-    Id: {{team.id}}
+<div [className]= "'team-fullname ' + team.division.toLowerCase()">
     <br />
-    <b>Abbreviazione</b> {{team.abbreviation}}
+    <b>ID - {{team.id}}</b>
     <br />
-    <b>Città</b> {{team.city}}
+    <h4>{{team.full_name}}</h4>
+    <b>Nome: </b> {{team.name}}
+    <br />
+    <b>Abbreviazione: </b> {{team.abbreviation}}
+    <br />
+    <b>Città: </b> {{team.city}}
     <br />  
-    <b>Conferenza</b> {{team.conference}}
+    <b>Conferenza: </b> {{team.conference}}
     <br />
-    <b>Divisione</b> {{team.division}}
-    <br />
-    <br />  
-    <b>Nome intero</b> {{team.full_name}}
-    <br />
-    <b>Nome</b> {{team.name}}
+    <b>Divisione: </b> {{team.division}}
     <br />
 
 </div>
