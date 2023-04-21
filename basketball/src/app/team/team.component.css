@@ -12,17 +12,17 @@
 }
 
 .southeast {
-    background-color: blue !important;
+    background-color: rgb(81, 191, 235) !important;
 }
 
 .northwest {
-    background-color: fuchsia !important;
+    background-color: rgb(8, 0, 255) !important;
 }
 
 .pacific {
-    background-color: blueviolet !important;
+    background-color: rgb(197, 150, 241) !important;
 }
 
 .southwest {
-    background-color: black !important;
+    background-color: rgb(208, 0, 250) !important;
 }
